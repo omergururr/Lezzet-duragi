@@ -141,3 +141,73 @@ footer {
     padding: 10px;
     border-bottom: 1px solid #eee;
 }
+
+/* ==========================================================================
+   MOBİL UYUMLULUK AYARLARI (Telefonlar için yeni eklenen kısım)
+   ========================================================================== */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        border-bottom: 1px solid #555;
+    }
+    
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 15px;
+    }
+
+    .dukan-kart {
+        width: 46%;
+        margin: 2%;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+
+    form {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    form input, form textarea, form select {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    table {
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dukan-kart {
+        width: 96%;
+        margin: 2% auto;
+    }
+}
