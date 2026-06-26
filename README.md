@@ -4,11 +4,10 @@ HTML, CSS ve PHP kullanılarak geliştirilmiş, modern bir arayüze ve dinamik i
 
 ## 🚀 Özellikler
 * **Dinamik Menü Listeleme:** Restoran menüsündeki yemeklerin PHP altyapısı ile listelenmesi.
-* **Modern Arayüz:** Kullanıcı dostu, şık ve responsive (mobil uyumlu) tasarım.
 * **Yönetim Yapısı:** İçeriklerin dinamik olarak yönetilebilmesi için geliştirilmiş PHP sayfaları.
 
 ## 🛠️ Kullanılan Teknolojiler
-* **Frontend:** HTML5, CSS3, JavaScript
+* **Frontend:** HTML5, CSS3
 * **Backend:** PHP
 
 ## 💻 Kurulum ve Çalıştırma
